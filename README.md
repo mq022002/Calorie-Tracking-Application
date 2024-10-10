@@ -39,9 +39,10 @@ npm run dev
 
 Or to kill the development server...
 
-````
+```
 Windows:    CTRL + C
-MacOS:      CMD + C```
+MacOS:      CMD + C
+```
 
 ## Firebase Functions
 
@@ -53,7 +54,7 @@ Note: This is under the assumption that you have everything set up for the backe
 
 ```bash
 npm i -g firebase-tools
-````
+```
 
 1. To develop a Firebase Function, you create a '.ts' file within the functions folder. I recommend that we keep this organized, but not to an over-engineered extent. For example, we can have a folder dedicated to all functions related to a specific collection. We decide this a group and it wil be documented.
 2. You will then need to export this within the barrel file (index.ts inside of the functions folder) so that the Firebase CLI can resolve back to the rest of your functions within the main entry point (index.ts inside of the src folder).
